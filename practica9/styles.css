@@ -1,0 +1,33 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1, h3 {
+    color: #1f2020;
+}
+
+table {
+    background-color: #ffffff;
+}
+
+td {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+#calculateBtn {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+#calculateBtn:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+h4 {
+    color: #343a40;
+}

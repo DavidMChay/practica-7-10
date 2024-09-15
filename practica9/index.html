@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Matrices</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="text-center mb-4">Calculadora de Matrices</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <h3 class="text-center">Matriz 1</h3>
+                <table class="table table-bordered text-center" id="matrix1Table">
+                    <tbody>
+                        <tr>
+                            <td contenteditable="true">0</td>
+                            <td contenteditable="true">0</td>
+                        </tr>
+                        <tr>
+                            <td contenteditable="true">0</td>
+                            <td contenteditable="true">0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <h3 class="text-center">Matriz 2</h3>
+                <table class="table table-bordered text-center" id="matrix2Table">
+                    <tbody>
+                        <tr>
+                            <td contenteditable="true">0</td>
+                            <td contenteditable="true">0</td>
+                        </tr>
+                        <tr>
+                            <td contenteditable="true">0</td>
+                            <td contenteditable="true">0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <button class="btn btn-primary" id="calculateBtn">Calcular</button>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h4>La suma es:</h4>
+                <table class="table table-bordered text-center" id="sumTable">
+                    <tbody>
+                        <tr>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <h4>La resta es:</h4>
+                <table class="table table-bordered text-center" id="subtractionTable">
+                    <tbody>
+                        <tr>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h4>El producto es:</h4>
+                <table class="table table-bordered text-center" id="productTable">
+                    <tbody>
+                        <tr>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <h4>La división es:</h4>
+                <table class="table table-bordered text-center" id="divisionTable">
+                    <tbody>
+                        <tr>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
