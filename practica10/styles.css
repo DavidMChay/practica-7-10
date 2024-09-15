@@ -1,0 +1,37 @@
+body {
+    font-family: 'Mingzat';
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #6a0988;
+}
+
+input[type="number"] {
+    text-align: center;
+}
+
+.matrix-container {
+    display: none;
+}
+
+table {
+    background-color: #ffffff;
+}
+
+td {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+#generateMatrixBtn {
+    background-color: #ae00ff;
+    border-color: #ae00ff;
+}
+
+#generateMatrixBtn:hover {
+    background-color: #7100b3;
+    border-color: #540085;
+}
