@@ -16,13 +16,13 @@ $(document).ready(function() {
                 const td = $('<td></td>').attr('contenteditable', 'true').text(cell);
                 td.on('input', function() {
                     const value = $(this).text();
-                    if (!/^\d*$/.test(value)) {  // Solo permite números
+                    if (!/^\d*$/.test(value)) {
                         $(this).text(value.replace(/[^\d]/g, ''));
                     }
                 });
                 td.on('focusout', function() {
                     let value = $(this).text();
-                    if (value === '') { // Si está vacío, cambiar a 0
+                    if (value === '') {
                         value = 0;
                         $(this).text(value);
                     }
