@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    color: #007bff;
+}
+
+input[type="number"] {
+    text-align: center;
+}
+
+.matrix-container {
+    display: none;
+}
+
+table {
+    background-color: #ffffff;
+}
+
+td {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+#generateMatrixBtn {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+#checkMagicSquareBtn {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.result {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #343a40;
+}
