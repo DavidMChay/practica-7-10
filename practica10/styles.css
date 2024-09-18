@@ -11,7 +11,7 @@ input[type="number"] {
     text-align: center;
 }
 
-.matrix-container, .result-container {
+.matrix-container, .result-container, .steps-container {
     display: none;
 }
 
@@ -53,4 +53,8 @@ td[contenteditable="true"] {
 #gaussButton:hover:not(:disabled) {
     background-color: #218838;
     border-color: #1e7e34;
+}
+
+#stepsList {
+    margin-top: 20px;
 }
